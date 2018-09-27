@@ -24,3 +24,8 @@
 #cn-accept-cookie a:link {
 	text-decoration: none;
 }
+
+.site-content-contain {
+    background-color: #d5ffa0;
+    position: relative;
+}
