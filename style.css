@@ -12,3 +12,15 @@
  Text Domain:  twenty-seventeen-child
 */
 
+#cn-notice-text a:link {
+	color: white;
+	text-decoration: underline;
+}
+
+#cn-notice-text a:link:hover {
+	color: rgb(0, 0, 218);
+}
+
+#cn-accept-cookie a:link {
+	text-decoration: none;
+}
