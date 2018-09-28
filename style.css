@@ -24,3 +24,15 @@
 #cn-accept-cookie a:link {
 	text-decoration: none;
 }
+
+.site-title {
+	font-family: 'Lato', sans-serif;
+}
+
+p {
+	font-family: 'Mate', serif;
+}
+
+.main-navigation a {
+	font-family: 'Roboto', sans-serif;
+}
