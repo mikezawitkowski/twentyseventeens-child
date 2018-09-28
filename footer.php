@@ -3,7 +3,6 @@
  * The template for displaying the footer
  *
  * Contains the closing of the #content div and all content after.
- * 2018-09-27 mike@acornanalytics.io added copy for copyright site info.
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
@@ -12,6 +11,9 @@
  * @since 1.0
  * @version 1.2
  */
+
+?>
+
 		</div><!-- #content -->
 
 		<footer id="colophon" class="site-footer" role="contentinfo">
@@ -34,12 +36,11 @@
 				<?php endif;
 
 				get_template_part( 'template-parts/footer/site', 'info' );
-        // To customize the footer text, comment out the next line and add your own custom code.
-
-        <p style="margin: 10px 0; text-align: right;">
-          &copy; 2016-<?php echo date("Y"); ?> Acorn Analytics Inc. | All Rights Reserved.
-          </p>
 				?>
+				// To customize the footer text, comment out the next line and add your own custom code.
+        <p style="margin: 10px 0; text-align: right;">
+          &copy; 2016-2099 Acorn Analytics Inc. | All Rights Reserved.
+        </p>
 			</div><!-- .wrap -->
 		</footer><!-- #colophon -->
 	</div><!-- .site-content-contain -->
