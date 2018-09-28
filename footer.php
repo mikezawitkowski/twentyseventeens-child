@@ -3,7 +3,7 @@
  * The template for displaying the footer
  *
  * Contains the closing of the #content div and all content after.
- * 2018-09-27 mike@acornanalytics.io added copy for copyright site info. 
+ * 2018-09-27 mike@acornanalytics.io added copy for copyright site info.
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
@@ -12,9 +12,6 @@
  * @since 1.0
  * @version 1.2
  */
-
-?>
-
 		</div><!-- #content -->
 
 		<footer id="colophon" class="site-footer" role="contentinfo">
