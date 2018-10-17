@@ -5,12 +5,16 @@
  Author:       Mike Zawitkowski
  Author URI:   https://acornanalytics.com
  Template:     twentyseventeen
- Version:      0.1.2
+ Version:      0.1.3
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
  Text Domain:  twenty-seventeen-child
 */
+
+#cn-accept-cookie a:link {
+	text-decoration: none;
+}
 
 #cn-notice-text a:link {
 	color: white;
@@ -21,21 +25,47 @@
 	color: rgb(0, 0, 218);
 }
 
-#cn-accept-cookie a:link {
-	text-decoration: none;
+
+.h1, h2, h3, h4, h5, h6 {
+		font-family: 'Roboto', sans-serif;
+}
+
+.entry-title {
+    font-size: 1.7rem;
+}
+
+.main-navigation a {
+	font-family: 'Roboto', sans-serif;
+}
+
+.menu-toggle {
+		font-family: 'Roboto', sans-serif;
+}
+
+.page-title {
+		font-family: 'Roboto', sans-serif;
+}
+
+.search-submit {
+		font-family: 'Roboto', sans-serif;
+}
+
+.site-branding {
+    padding-bottom: 45px;
 }
 
 .site-title {
 	font-family: 'Lato', sans-serif;
 }
 
+body, button, input, select, textarea {
+		font-family: 'Roboto', sans-serif;
+}
+
 p {
 	font-family: 'Mate', serif;
 }
 
-.main-navigation a {
-	font-family: 'Roboto', sans-serif;
-}
 
 /* css for full width template courtesy Netzberufler
 https://gist.github.com/Netzberufler/792a74d63f24aadcad444f4c9d415c11 */
