@@ -37,7 +37,6 @@
 
 				get_template_part( 'template-parts/footer/site', 'info' );
 				?>
-				// To customize the footer text, comment out the next line and add your own custom code.
         <p style="margin: 10px 0; text-align: right;">
           &copy; 2016-2099 Acorn Analytics Inc. | All Rights Reserved.
         </p>
