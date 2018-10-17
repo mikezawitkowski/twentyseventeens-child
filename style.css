@@ -5,7 +5,7 @@
  Author:       Mike Zawitkowski
  Author URI:   https://acornanalytics.com
  Template:     twentyseventeen
- Version:      0.1.1
+ Version:      0.1.2
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
@@ -35,4 +35,21 @@ p {
 
 .main-navigation a {
 	font-family: 'Roboto', sans-serif;
+}
+
+/* css for full width template courtesy Netzberufler
+https://gist.github.com/Netzberufler/792a74d63f24aadcad444f4c9d415c11 */
+
+body.page-template-template-full-width #content #primary {
+	max-width: 100%;
+}
+
+body.page-template-template-full-width #content #primary .entry-header,
+body.page-template-template-full-width #content #primary .entry-content {
+    float: none;
+    width: 100%;
+}
+
+body.page-template-template-full-width #content #primary .entry-header {
+    margin-bottom: 4em;
 }
