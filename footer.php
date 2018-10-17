@@ -35,8 +35,12 @@
 					</nav><!-- .social-navigation -->
 				<?php endif;
 
-				get_template_part( 'template-parts/footer/site', 'info' );
+				// get_template_part( 'template-parts/footer/site', 'info' );
 				?>
+<<<<<<< HEAD
+=======
+				<!-- // To customize the footer text, comment out the next line and add your own custom code. -->
+>>>>>>> 1e19d29ced2aba90700d9eb4d4b51ec5bb96be66
         <p style="margin: 10px 0; text-align: right;">
           &copy; 2016-2099 Acorn Analytics Inc. | All Rights Reserved.
         </p>
